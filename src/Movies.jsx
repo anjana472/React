@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import './Movies.css'; 
+import './Movies.css';  
 
 const Movies = () => {
   const [title, setTitle] = useState('');
